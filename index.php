@@ -6,7 +6,7 @@ CHANGE $email to your GRAVATAR E-Mail address so that youll always have an updat
 Sign Up for GRAVATAR here: http://gravatar.org/
 */
 $email = "your@email.here";
-$default = "src/user_placeholder.png";
+$default = "https://mcreef.de/src/user_placeholder.png";
 $size = 400;
 
 $grav_url = "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . urlencode( $default ) . "&s=" . $size;
