@@ -1,6 +1,6 @@
 # 🔗 LinkEasy
 
-LinkEasy is a minimalistic self-hosted PHP "Linktree" or "LinkedIn Bio" alternative. With the Integration of Gravatar and Google Analytics.
+LinkEasy is a minimalistic self-hosted PHP "Linktree" or "LinkedIn Bio" alternative. With the Integration of Gravatar for automatic Profile Picture Updates and Google Analytics for tracking.
 A working example can be found [here](https://mcreef.de/)
 
 ## Screenshots

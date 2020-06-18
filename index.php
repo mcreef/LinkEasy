@@ -1,3 +1,4 @@
+<!-- LINKEASY BY MATTHIAS CLAUDIUS REEF - V1.0 -->
 <?php
 /*
 GRAVATAR INTEGARAION
@@ -5,7 +6,7 @@ CHANGE $email to your GRAVATAR E-Mail address so that youll always have an updat
 Sign Up for GRAVATAR here: http://gravatar.org/
 */
 $email = "your@email.here";
-$default = "https://pbs.twimg.com/profile_images/1028344178294419456/UM_bdwXQ_400x400.jpg";
+$default = "src/user_placeholder.png";
 $size = 400;
 
 $grav_url = "https://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . urlencode( $default ) . "&s=" . $size;
