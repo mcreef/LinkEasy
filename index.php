@@ -1,5 +1,4 @@
 <?php
-
 /*
 GRAVATAR INTEGARAION
 CHANGE $email to your GRAVATAR E-Mail address so that youll always have an updated profile pictue.
@@ -80,14 +79,14 @@ function get_gravatar( $email, $s = 80, $d = 'mp', $r = 'g', $img = false, $atts
     )
 </script>
 
-<!-- NUMBER STUFF -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169247260-1"></script>
+<!-- GOOGLE ANALYTIC STUFF -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxxx-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-169247260-1');
+  gtag('config', 'UA-xxxxxxxxx-1');
 </script>
 
 </head>
@@ -100,17 +99,18 @@ function get_gravatar( $email, $s = 80, $d = 'mp', $r = 'g', $img = false, $atts
 	<a href="#"><img class="avy round" src="<?php echo $grav_url; ?>"></a>
 
 	<!-- NAME -->
-	<h1 class="padding-top-15">Matthias Claudius Reef</h1>
+	<h1 class="padding-top-15">Your Name Here</h1>
 
 	<!-- DESCRIPTION -->
-	<h2 class="padding-top-15">Photographer & Developer</br><b>Founder of REBE Clothing</b><!--</br><a href="#" class="preul underline">Want to know more about me? Send a DM!</a>.--></h2>
+	<h2 class="padding-top-15">What do you do?</br><b>You can also Highlight in Bold Text</b><!--</br><a href="#" class="preul underline">Want to know more about me? Send a DM!</a>.--></h2>
 
 	<!-- SOCIAL ICONS -->
 	<div><p class="padding-top-50">
-		<a href="https://instagram.com/matthias.log" target="_blank" class="social-spacing"><i class="fab fa-instagram fa-2x"></i></a>
-		<a href="https://www.tiktok.com/@mcreef" target="_blank" class="social-spacing"><i class="fab fa-tiktok fa-2x"></i></a>
-		<a href="https://twitter.com/reef_matt" target="_blank" class="social-spacing"><i class="fab fa-twitter fa-2x"></i></a>
-		<a href="https://snapchat.com/add/logtainment" target="_blank" class="social-spacing"><i class="fab fa-snapchat-ghost fa-2x"></i></a>
+		<a href="#" target="_blank" class="social-spacing"><i class="fab fa-instagram fa-2x"></i></a>
+		<a href="#" target="_blank" class="social-spacing"><i class="fab fa-tiktok fa-2x"></i></a>
+		<a href="#" target="_blank" class="social-spacing"><i class="fab fa-twitter fa-2x"></i></a>
+		<a href="#" target="_blank" class="social-spacing"><i class="fab fa-snapchat-ghost fa-2x"></i></a>
+    <a href="#" target="_blank" class="social-spacing"><i class="fab fa-github fa-2x"></i></a>
 	</div>
 
 	<div class="clear"></div>
@@ -120,11 +120,11 @@ function get_gravatar( $email, $s = 80, $d = 'mp', $r = 'g', $img = false, $atts
 <div class="section padding-bottom-50 center-align">
 
 	<!-- BUTTONS -->
-	<a href="https://rebeclothing.com/" target="_blank"><div class="button"><p class="white">REBE Clothing</p></div></a>
+	<a href="#" target="_blank"><div class="button"><p class="white">Link 1</p></div></a>
 
-	<a href="https://matthiasreef.de/" target="_blank"><div class="button"><p class="white">Photography Portfolio</p></div></a>
+	<a href="#" target="_blank"><div class="button"><p class="white">Link 2</p></div></a>
 
-	<a href="https://verse.me/$logmc" target="_blank"><div class="button"><p class="white">Donate via VERSE</p></div></a>
+	<a href="#" target="_blank"><div class="button"><p class="white">Link 3</p></div></a>
 
 	<!--
 	<a href="#" target="_blank"><div class="button"><p class="white">Link 4 Change the color too</p></div></a>
@@ -147,10 +147,10 @@ function get_gravatar( $email, $s = 80, $d = 'mp', $r = 'g', $img = false, $atts
 </div>
 
 <div class="section padding-bottom-100 center-align">
-	<!-- COPYRIGHT TEXT -->
+	<!-- COPYRIGHT TEXT - DO NOT CHANGE EXCEPT FOR IMPRINT & PRIVACY-->
 	<small class="light-grey">&copy; 2020 mcreef & logtainment digital services</small></br>
-	<small class="light-grey"><a href="https://matthiasreef.de/imprint-privacy" class="preul underline">Imprint & Privacy Policy</a></small>
-  <small class="light-grey"><a href="https://github.com/mcreef/LinkEasy" class="preul underline">This Project is Open Source Licensed under the GPL 2.0 License - Find the sourcecode on GitHub</a></small>
+	<small class="light-grey"><a href="#" class="preul underline">Imprint & Privacy Policy</a></small></br>
+  <small class="light-grey"><a href="https://github.com/mcreef/LinkEasy" class="preul underline">This Project is Open Source Licensed under the GPL 2.0 License</a></small>
 </div>
 
 </body>
