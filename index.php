@@ -150,8 +150,7 @@ function get_gravatar( $email, $s = 80, $d = 'mp', $r = 'g', $img = false, $atts
 <div class="section padding-bottom-100 center-align">
 	<!-- COPYRIGHT TEXT - DO NOT CHANGE EXCEPT FOR IMPRINT & PRIVACY-->
 	<small class="light-grey">&copy; 2020 mcreef & logtainment digital services</small></br>
-	<small class="light-grey"><a href="#" class="preul underline">Imprint & Privacy Policy</a></small></br>
-  <small class="light-grey"><a href="https://github.com/mcreef/LinkEasy" class="preul underline">This Project is Open Source Licensed under the GPL 2.0 License</a></small>
+	<small class="light-grey"><a href="#" class="preul underline">Imprint & Privacy Policy</a></small><small class="light-grey">  ·  </small><small class="light-grey"><a href="https://github.com/mcreef/LinkEasy" class="preul underline">Made with LinkEasy</a></small>
 </div>
 
 </body>
